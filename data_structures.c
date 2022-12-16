@@ -14,4 +14,5 @@ struct bucket{
     int local_depth;
     /*POINT TO DIR to go back ?*/
     Directory* back_dir;
+    int* slot;
 };
